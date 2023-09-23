@@ -98,3 +98,35 @@ h1 {
         right: 5%;
     }
 }
+.barrapesquisa {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#btnbuscar{
+margin-right: 15px;
+
+}
+
+#divbuscar{
+    background-color:#2F4F4F;
+    border:solid 1px;
+    border-radius:15px;
+    width:880px;
+    text-align: right;
+    position: center;
+  }
+  
+
+#txtbuscar{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:880px;
+    text-align: center;
+
+  }
