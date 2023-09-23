@@ -1,0 +1,46 @@
+
+.personagem{
+width: 261px;
+height: 217px;
+border-radius: 3%;
+}
+p,h2{
+    text-align: center;
+
+}
+h2{
+    color: yellow;
+    font-size: 13pt;
+    background-color: rgba(164, 8, 8, 0.793);
+    border-radius: 50px;
+    margin: 8px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.477);
+
+}
+.btnseguir {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+
+}
+.btnlike, .btncursor {
+    width: 18px;
+    height: 18px;
+    display: inline;
+    padding-inline: 5%;
+}
+
+.info-container{
+    width: 261px;
+    height: 409px; 
+    background-color: white;
+    margin: 20px;
+
+    border-radius: 3%;
+    align-content: end;
+}
+.container{
+    display: flex;
+    padding-inline: 5%;
+    padding: 20px;
+}

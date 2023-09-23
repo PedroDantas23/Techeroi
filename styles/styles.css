@@ -1,0 +1,100 @@
+
+body {
+    background-image: url("/assets/background.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    margin-left: 20px;
+}
+
+.logo-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.dropbtn {
+    background-color: rgba(255, 255, 255, 0.0);
+    color: white;
+    padding: 2% 10% 2% 10%;
+    font-size: 1.0em;
+    border: 1px solid;
+    cursor: pointer;
+    width: 120%;
+    display: flex;
+    align-items: center;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #555;
+}
+
+.dropdown {
+    position: absolute;
+    top: 2%;
+    right: 3%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3d3c3c;
+    min-width: 120%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 5% 20% 5% 20%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-content a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.show {
+    display: block;
+}
+
+.seta-icon {
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .logo-container {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .logo-container img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .dropbtn {
+        padding: 2% 5%;
+        font-size: 0.8em;
+        width: 100%;
+    }
+
+    .dropdown {
+        top: 5%;
+        right: 5%;
+    }
+}
